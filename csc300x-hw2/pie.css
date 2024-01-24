@@ -1,9 +1,30 @@
-#review {
-
+#heading {
+    font-size: 22pt;
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
+body {
+    background-color: white;
+    font-family: 'Georgia', 'Garamond', 'Serif';
+}
+
+h1,h2, h3, h4, h5, h6 {
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'Sans-Serif' ;
+    font-size: 18px;
+    color: #a4a400;
+    background-color: #f0f0f0;
     text-decoration: underline;
-    text-size-adjust: 22pt;
+}
+
+a:link, a:visited, a:hover {
+    display: block;
+    color: #a4a400;
+}
+
+pre {
+    text-align: left;
+}
+
+blockquote {
+    background-color: #ffffa8;
 }
