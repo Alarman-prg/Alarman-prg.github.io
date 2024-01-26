@@ -1,0 +1,9 @@
+body {
+    background-color: bisque;
+    font-family: 'Playfair Display', serif;
+}
+
+header h1 {
+    text-align: center;
+    text-decoration: underline;
+}
