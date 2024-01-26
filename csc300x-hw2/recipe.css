@@ -4,11 +4,8 @@ body, html {
 }
 
 .bg {
-    background-image: url("https://github.com/Alarman-prg/Alarman-prg.github.io/blob/main/csc300x-hw2/csc300x-hw2-resources/csc300x-hw2/silverware.jpg?raw=true");
+    background-image: url("/csc300x-hw2/csc300x-hw2-resources/silverware.jpg");
     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #heading {
@@ -22,7 +19,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'Sans-Serif' ;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 18px;
     color: #a4a400;
     background-color: #f0f0f0;
@@ -30,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul {
-    list-style-image: url("https://github.com/Alarman-prg/Alarman-prg.github.io/blob/main/csc300x-hw2/csc300x-hw2-resources/csc300x-hw2/pie_icon.gif?raw=true");
+    list-style-image: url("/csc300x-hw2/csc300x-hw2-resources/pie_icon.gif");
 }
 
 a:link, a:visited, a:hover {
@@ -46,7 +43,6 @@ blockquote {
     background-color: #ffffa8;
 }
 
-#css-check, #html-check{
+#css-check, #html-check {
     display: inline;
 }
-

@@ -11,13 +11,11 @@ main, section, footer, header {
 }
 
 header h1 {
-    border: 2px solid black;
     text-align: center;
 }
 
 main {
     height: 50%;
-    outline: 2px solid black;
     margin: 5px;
     padding: 5px;
 }
@@ -53,11 +51,6 @@ main {
     margin-right: 10px;
     text-align: center;
     width: 100%;
-}
-
-footer, section {
-    
-
 }
 
 footer {
