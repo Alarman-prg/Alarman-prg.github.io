@@ -1,54 +1,100 @@
-html, body {
+html,
+body {
+    height: 2000px;
+    width: 100%;
     margin: 0px;
     padding: 0px;
-    height: 100%;
-    width: 100%;
-    background-color: #F2E8AE;
+    background-color: #E8C994;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header-container {
     display: flex;
+    height: 10%;
     margin: 5px;
-    background-color: #95A15A;
+    background-color: #D95A45;
     border: 3px solid white;
     flex-direction: row;
-    /*justify-content: center;*/
-    align-content: space-between;
     align-items: center;
-    height: 10%;
-    width: 99%;
-}
 
-.intro-container {
-    margin: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #B89E81;
-    border: 3px solid white;
-    height: 65%;
-    width: 99%;
 }
 
 .header-item p {
     padding-right: 20px;
 }
+
+.header-container h1,
 .header-container #title {
     flex: 1;
     padding-left: 20px;
-}
-
-.header-container h1 {
     font-size: 55px;
     text-decoration: overline underline double;
 }
 
-.intro-item {
-    border: 3px solid;
-    background-color: #767B53;
-    color: white;
+
+.intro-container {
+    margin: 5px;
+    max-height: 20%;
+    display: flex;
+    background-color: #9DC0AD;
+    border: 3px solid white;
     text-align: center;
-    margin: 30px;
-    height: 75%;
-    width: 25%;
+    font-size: 20px;
 }
+
+.body-container {
+    margin: 5px;
+    border: 3px solid white;
+    background-color: #69858D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.container-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container .container-item p {
+    padding-left: 20px;
+}
+
+.container-item h2 {
+
+    font-size: 35px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.inside-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+}
+
+.desc {
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 5px solid white;
+}
+
+.inside-container-item {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+.inside-container-item img {
+    padding: 0px;
+    margin: 0px;
+    max-height: 250px;
+    max-width: 400px;
+    width: auto;
+    height: auto;
+}
+
