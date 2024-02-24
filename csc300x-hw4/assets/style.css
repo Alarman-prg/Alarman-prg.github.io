@@ -1,0 +1,41 @@
+html, body {
+    height: 75em;
+    margin: auto;
+    background-color: rgba(39,14,63,.5);
+}
+
+.mainContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.playerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 20px;
+}
+
+img {
+    margin: 50px;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+button {
+    max-height: 30px;
+    margin: 2em;
+}
+
+p {
+
+}
