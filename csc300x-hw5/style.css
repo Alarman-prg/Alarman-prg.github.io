@@ -1,0 +1,59 @@
+
+
+body {
+    padding: 0px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(159, 94, 219);
+}
+
+.container {
+    display: flex;
+    border: 1px solid;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 40px;
+    background-color: rgb(65, 64, 64);
+}
+
+div#cardContainer {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 0px;
+    width: 25%;
+    height: 400px;
+    text-align: center;
+}
+
+div.card h3 {
+    font-size: 15px;
+    padding:10px;
+}
+
+div.card p {
+    font-size: 10px;
+    padding:0px;
+}
+
+
+/* .container div {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgba(245, 245, 245, 0.70);
+} */
